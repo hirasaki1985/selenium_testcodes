@@ -35,17 +35,11 @@ $ source activate selenium
 ## 実行
 ```
 $ source activate selenium
-(selenium)$ python src/main.py
+(selenium)$ python src/main.py -m sample -p test_sample
 ```
 
-## main.py
-|オプション|説明|
-|-m|機能名|
-|-p|プロジェクト(案件名)|
-|-s|対象環境|
-
-
 ## 参考
+
 [Macにanacondaをインストールする→ライブラリの追加](https://qiita.com/berry-clione/items/24fb5d97e4c458c0fc28)
 [PythonでSeleniumを使ってスクレイピング (基礎)](https://qiita.com/kinpira/items/383b0fbee6bf229ea03d)
 [ChromeDriver - WebDriver for Chrome](https://sites.google.com/a/chromium.org/chromedriver/home)
